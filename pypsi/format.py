@@ -271,7 +271,7 @@ class Table(object):
     def extend(self, *args):
         '''
         Add multiple rows to the table, each argument should be a list of
-        column values.
+        row values.
         '''
         for row in args:
             self.append(*row)
